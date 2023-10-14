@@ -1,5 +1,5 @@
 # Deep-Neural-Network-Basics
-Based on DeepLearning.AI, Neural Networks course's assessments
+Based on DeepLearning.AI Neural Networks course's assessments
 
 Implements a Deep Neural Network of 4 layers which is used for binary classificiation
 
