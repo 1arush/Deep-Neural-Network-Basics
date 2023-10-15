@@ -3,6 +3,8 @@ Based on DeepLearning.AI Neural Networks course's assessments
 
 Implements a Deep Neural Network of 4 layers which is used for binary classificiation
 
+Uses multiple helper functions to implement forward propagation and backward propagation
+
 Note:
 
 -- Classifies images as Cat or Non-cat
