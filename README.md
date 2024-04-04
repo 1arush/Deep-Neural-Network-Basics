@@ -6,14 +6,19 @@ as numpy, pandas, matplotlib, and PIL. The motivation for using a deep-net is th
 the more complex nature of the data, i.e. an image of a cat. Adding more layers allows the model to figure out more complex functions, which are 
 exactly what we need in order to classify an image as cat (positive) or non-cat (negative).
 
-This notebook uses multiple helper functions to implement forward propagation and backward propagation. These include functions for ReLU, sigmoid as 
-well as their derivatives. To aid backpropagation, we store the hidden layer activations of each layer in a "cache", which may use up more memory
-for larger models.
+<img width="631" alt="2layerNN_kiank" src="https://github.com/1arush/deep-neural-network-basics/assets/105356056/063eacee-ae4f-477f-859a-a1f84989e4e5">
 
-Also, it is important to note that it trains on 209 examples of labeled images, and performs sufficiently well on the test set.
+This notebook uses multiple helper functions to implement forward propagation and backward propagation. These include functions for ReLU, sigmoid as 
+well as their derivatives. The derivatives can be thought of by using a computation graph, which helps understand the propagation of the gradients. To aid backpropagation, we store the hidden layer activations of each layer in a "cache", which may use up more memory for larger models.
+
+Also, it is important to note that it trains on 209 examples of labeled images, and performs sufficiently well on the test set with an accuracy of 0.8.
 
 Some notes:
 
 -- classifies images as cat or non-cat
 
+-- uses standard gradient descent without regularization and rmsprop
+
 -- uses an image dataset in an h5 format
+
+
